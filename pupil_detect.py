@@ -60,6 +60,6 @@ def main():
         success, photo = camera.read()
         if draw(photo) > 0:
             break
-
+print("This is pupil_detect")
 if __name__ == '__main__':
     main()
